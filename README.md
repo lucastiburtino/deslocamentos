@@ -1,5 +1,5 @@
 # Deslocamentos
-Aplicativo em Python para padronização na solicitação de deslocamentos, além de agilizar processo de autorização pela autoridade competente
+Aplicativo para padronização na solicitação de deslocamentos, além de agilizar processo de autorização pela autoridade competente
 
 Projeto em construção.
 
