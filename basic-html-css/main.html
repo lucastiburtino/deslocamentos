@@ -6,6 +6,14 @@
     <title>Sistema de Deslocamentos</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+
+    <!-- Begin Bootstrap 4  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- End Bootstrap 4  -->
+
     <link rel="stylesheet" href="styles.css">
   </head>
 
@@ -13,7 +21,7 @@
     <header>
       <h1>Sistema de Deslocamentos</h1>
 
-      <!-- descomentar quando tiver decidir como será
+      <!-- descomentar quando tiver decidido como será
       <nav>
         <ul class="navbar">
           <li><a href="">Página Inicial</a></li>
@@ -21,6 +29,7 @@
         </ul>
       </nav>
     -->
+
     </header>
 
     <hr>
@@ -31,8 +40,22 @@
 
         <ul class="main-navbar">
 
-          <li><a href="#/">Solicitações</a></li>
-          <li><a href="#/">Prestação de Contas</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="#/" data-toggle="dropdown">
+              Solicitações</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Nova solicitação</a>
+                <a class="dropdown-item" href="#">Acompanhar solicitação</a>
+                <a class="dropdown-item" href="#">Cancelar solicitação</a>
+          </li>
+          <li>
+            <a class="dropdown-toggle" href="#/" data-toggle="dropdown">
+              Prestação de Contas</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Nova Prestação de Contas</a>
+                <a class="dropdown-item" href="#">Editar prestação de contas</a>
+                <a class="dropdown-item" href="#">Deletar prestação de contas</a>
+          </li>
           <li><a href="#/">Ajuda</a></li>
 
         </ul>
@@ -46,4 +69,5 @@
     </footer>
 
 </body>
+
 </html>
