@@ -1,0 +1,30 @@
+.navbar li {
+  display: inline-block; }
+
+ul.main-navbar {
+  background-color: #666;
+  list-style: none;
+  display: flex;
+  font: 12px Verdana, Arial, Sans-Serif;
+  line-height: 1;
+  margin: 0;
+  padding: 0; }
+
+.main-navbar li {
+  list-style: none;
+  border-right: 1px solid #fff;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: 0; }
+
+.main-navbar a {
+  color: #eee;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block; }
+
+a.dropdown-item {
+  color: inherit; }
